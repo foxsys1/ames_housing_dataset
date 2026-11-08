@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets
+projects/*/data/*.csv
+
+# Generated outputs
+projects/*/submissions/
+projects/*/outputs/
+
+# Local editor settings
+.vscode/
